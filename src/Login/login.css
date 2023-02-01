@@ -1,0 +1,129 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  .details{
+    /* background-color: #000000; */
+    position: absolute;
+    right:0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+  }
+  .root
+  {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    /* border: solid 2px #ff4584; */
+  }
+  .user
+  {
+    position: absolute;
+    top: 25%;
+    height: 8%;
+    right: 20%;
+    width: 60%;
+    /* color: #31E1F7; */
+    /* background-color: #000000; */
+    /* border: solid 1px  #00FFAB; */
+    /* box-shadow: 1px 1px 1px 1px #00FFAB; */
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 1px ;
+    text-align: center;
+    font-size: large;
+  }
+  .error{
+    border: solid 3px red;
+  }
+  .pass
+  {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    height: 8%;
+    width: 60%;
+    /* color: #31E1F7; */
+    padding: 5px;
+    border-radius: 20px;
+    /* background-color: #000000; */
+    border: solid 1px ; 
+    /* box-shadow: 1px 1px 1px 1px #00FFAB; */
+    text-align: center;
+    font-size: large;
+  }
+  .log
+  {
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    width: 20%;
+    height: 10%;
+    background-color: #EA047E;
+    border-radius: 10px;
+    color: black;
+    border: solid 3px black;
+  }
+  .okati
+  {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    color: #607d8b;
+    border-bottom: 3px solid #ff4584;
+  }
+  .edho
+  {
+    position: absolute;
+    left: 18%;
+    top:40%;
+    color: #607d8b;
+    border-bottom: 3px solid #ff4584;
+  }
+  /* .image{
+    width: 20%;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    border: solid 3px #000000;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+  } */
+  .image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+  }
+  .image:before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(200deg,#e91e63,#03a9f4);
+    z-index:1;
+    mix-blend-mode: screen;
+    content: '';
+  }
+  .img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+  .icon{
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+  }
+  .click{
+    background-color: orange;
+  }

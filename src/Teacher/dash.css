@@ -1,0 +1,104 @@
+.title_container{
+    background-color: darkmagenta;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    display: inline-block;
+}
+.title{
+    position: absolute;
+    left: 10%;
+    bottom:8%;
+    font-size:40px ;
+}
+.refresh{
+    background-color: coral;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    height: 4vh;
+    width:70px;
+    padding: 5px;
+}
+.class_container{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 60%;
+    height: 15vh;
+    border: 2px solid white;
+    box-shadow: gray 2px 2px 2px 2px;
+    border-radius: 10px;
+}
+.class_name{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 30px;
+}
+.join{
+    position: absolute;
+    right: 2%;
+    bottom: 35%;
+    height: 30%;
+    width: 8%;
+    background-color: chocolate;
+}
+.click{
+    background-color: cornsilk;
+}
+.sign{
+    background-color: darkmagenta;
+    color: white;
+    border: 0;
+    font-size: 30px;
+    position: absolute;
+    top: 3%;
+    left: 0;
+}
+.sign:hover{
+    background-color: beige;
+    color: black;
+}
+.slidebar{
+    background-color: aqua;
+    position:absolute;
+    left:0;
+    bottom: 0;
+    height:100%;
+    width: 10%;
+    display: none;
+}
+.classes{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    background-color:aqua;
+    border: 2px 0 solid black;
+    height: 2em;
+    font-size: 25px;
+}
+.classes:hover{
+    background-color: grey;
+}
+.assign{
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    background-color:aqua;
+    font-size: 25px;
+    border: 2px solid black;
+    height: 2em;
+}
+.assign:hover{
+    background-color: grey;
+}
+.open{
+    display: block;
+}
+.closer{
+    position: absolute;
+    bottom: 0;
+}
